@@ -1,0 +1,56 @@
+.nav__btn .fa-user {
+  color: cornflowerblue;
+}
+
+#co-wo__display-link {
+  display: block;
+  text-align: center;
+  background-color: #fafafa;
+  padding: 10px;
+}
+
+#co-wo__display-link i {
+  opacity: 0.3;
+}
+
+#co-wo__display-link .fa-chevron-right {
+  margin-left: 5px;
+}
+
+.co-wo-groups__header {
+  margin: 15px 0 5px 0;
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.co-wo-groups {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 0;
+}
+
+.co-wo-groups__column {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.co-wo-groups__avatar {
+  display: flex;
+  align-items: center;
+}
+
+.co-wo-groups__name {
+  font-size: 16px;
+}
+
+.co-wo-groups__column:nth-child(even) {
+  opacity: 0.7;
+  font-size: 13px;
+}
+.co-wo-groups__column:nth-child(even) span {
+  padding-right: 5px;
+}
