@@ -1,0 +1,32 @@
+.co-wo__chats {
+  padding: 0 var(--horizontal-space);
+}
+
+.co-wo__chats .user-component {
+  margin-bottom: 15px;
+}
+.user-component .fa-star {
+  color: var(--blue);
+}
+.co-wo__chats .user-component__column:nth-child(even) {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.chat__time {
+  opacity: 0.5;
+  font-size: 12px;
+  margin-bottom: 4px;
+}
+
+.chat__number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: tomato;
+  color: #fff;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
