@@ -15,19 +15,35 @@
   position: relative;
 }
 
+.nav__btn:nth-child(2) {
+  position: relative;
+}
+
 .nav-chats__noti {
+  position: absolute;
+  top: -8px;
+  left: 17px;
   display: flex;
   justify-content: center;
   align-items: center;
   width: 23px;
   height: 23px;
-  font-weight: 600;
   background-color: tomato;
-  color: white;
+  color: #fff;
   border-radius: 50%;
-  position: absolute;
-  top: -8px;
-  left: 195px;
+  animation: upDown 2s ease-in-out infinite;
+}
+
+@keyframes upDown {
+  0% {
+    transform: none;
+  }
+  30% {
+    transform: translateY(5px);
+  }
+  70% {
+    transform: translateY(-5px);
+  }
 }
 
 .nav-dots__dot {
@@ -38,4 +54,29 @@
   position: absolute;
   top: -2px;
   right: -5px;
+}
+
+.clicked__btn {
+  color: cornflowerblue;
+}
+
+.nav__btn {
+  transition: 0.3s;
+}
+
+.nav__btn i:hover {
+  color: var(--blue);
+}
+
+.fa-ellipsis-h:hover {
+  animation: rotateElli 1.5s linear infinite;
+}
+
+@keyframes rotateElli {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
 }
