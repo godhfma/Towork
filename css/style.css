@@ -8,6 +8,7 @@
 @import "components/screen-header.css";
 @import "components/user-component.css";
 @import "components/icon-row.css";
+@import "components/no-mobile.css";
 
 /*screens*/
 @import "screens/login.css";
@@ -15,6 +16,7 @@
 @import "screens/chats.css";
 @import "screens/boards.css";
 @import "screens/dots.css";
+@import "screens/chatWithMe.css";
 
 body {
   font-family: "Open Sans", sans-serif;
