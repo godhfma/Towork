@@ -7,12 +7,20 @@
 @import "components/nav-bar.css";
 @import "components/screen-header.css";
 @import "components/user-component.css";
+@import "components/icon-row.css";
 
 /*screens*/
 @import "screens/login.css";
 @import "screens/co-wo.css";
+@import "screens/chats.css";
+@import "screens/boards.css";
+@import "screens/dots.css";
 
 body {
   font-family: "Open Sans", sans-serif;
   color: #333;
+  height: 100vh;
+}
+input:focus::placeholder {
+  color: transparent;
 }
