@@ -40,7 +40,7 @@
   align-items: center;
 }
 
-.chat__time {
+.chatWithMe .chat__time {
   color: rgb(26, 26, 26);
   background-color: #ccc;
   padding: 10px;
