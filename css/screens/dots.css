@@ -1,0 +1,18 @@
+.co-wo-dots__contents {
+  padding: var(--horizontal-space);
+}
+
+.co-wo-dots__contents .fa-question-circle {
+  color: red;
+  opacity: 0.7;
+}
+
+.co-wo-dots__contents .fa-address-book {
+  opacity: 0.5;
+  transition: 0.2s;
+  cursor: pointer;
+}
+.fa-address-book:hover,
+.fa-address-book:focus {
+  opacity: 1;
+}
