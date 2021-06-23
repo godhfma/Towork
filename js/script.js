@@ -1,0 +1,10 @@
+$(document).ready(function(){
+    $('.star').click(function(){
+        if($('.star').hasClass('star__blur')){
+            $('.star').removeClass('star__blur');
+        };
+    else{
+        $('.star').addClass('star__blur');
+    }
+});
+});
