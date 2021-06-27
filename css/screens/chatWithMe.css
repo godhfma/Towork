@@ -1,10 +1,10 @@
 .chatWithMe {
   background-color: rgb(163, 206, 233);
-  padding: var(--horizontal-space);
   position: relative;
 }
 
 .alt-header {
+  padding: var(--horizontal-space);
   padding-top: 45px;
   display: flex;
   justify-content: space-between;
@@ -52,6 +52,9 @@
   width: 100%;
 }
 
+.chatWithMe .main-chat {
+  padding: var(--horizontal-space);
+}
 .chatWithMe .message-row__content {
   float: right;
   position: relative;
@@ -78,7 +81,7 @@
 .chatWithMe .reply {
   position: fixed;
   bottom: 0;
-  width: 90%;
+  width: 100%;
   background-color: white;
   display: flex;
   justify-content: center;
@@ -106,6 +109,7 @@
 
 .reply i {
   opacity: 0.5;
+  cursor: pointer;
 }
 
 .reply .reply-column:last-child > i,
@@ -155,8 +159,9 @@
 }
 
 .reply:focus-within input {
-  width: 88vw;
+  width: 90vw;
   transform: translateX(-13%) translateY(-80px);
+  margin-left: 4vw;
 }
 
 .reply:focus-within {
