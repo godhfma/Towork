@@ -1,0 +1,61 @@
+.chatWithBoss {
+  background-color: rgb(146, 195, 216);
+  box-sizing: border-box;
+  position: relative;
+}
+
+.chat__timestamp {
+  color: rgb(26, 26, 26);
+  background-color: #eee;
+  padding: 10px;
+  border-radius: 30px;
+  font-size: 12px;
+}
+
+.message-row {
+  width: 100%;
+}
+
+.received {
+  display: flex;
+  align-items: center;
+  padding: var(--horizontal-space);
+}
+
+.received .message-author__img {
+  width: 48px;
+  height: 48px;
+  background-color: rgb(255, 255, 255);
+  font-size: 30px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 15px;
+}
+
+.message__author {
+  font-size: 13px;
+  opacity: 0.9;
+  display: block;
+  margin-bottom: 7px;
+}
+
+.received .message__info {
+  display: flex;
+  align-items: flex-end;
+}
+
+.received .message__bubble {
+  background-color: #fff;
+  padding: 8px 10px;
+  border-radius: 15px;
+  border-bottom-left-radius: 0px;
+  font-size: 14px;
+}
+
+.received .message__time {
+  opacity: 0.9;
+  font-size: 13px;
+  margin-left: 5px;
+}
