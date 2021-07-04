@@ -17,6 +17,7 @@
 @import "screens/boards.css";
 @import "screens/dots.css";
 @import "screens/chatWithMe.css";
+@import "screens/chatWithBoss.css";
 
 body {
   font-family: "Open Sans", sans-serif;
