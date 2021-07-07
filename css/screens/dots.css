@@ -17,6 +17,14 @@
   opacity: 1;
 }
 
+.icons-row__icon i {
+  transition: 0.3s;
+}
+
+.icons-row__icon i:hover {
+  transform: scale(1.05);
+}
+
 .dots-sug__line {
   border: 1px solid rgba(0, 0, 0, 0.1);
   margin: 30px 0;
@@ -25,17 +33,28 @@
 .dots-sug {
   padding: var(--horizontal-space);
   display: flex;
+  align-items: center;
+  justify-content: flex-start;
 }
 .dots-sug__icon {
-  margin-right: 40px;
   text-align: center;
+  width: 20%;
+}
+
+.dots-sug__icon:nth-child(2) {
+  margin: 0 20px;
 }
 .dots-sug__icon i {
   font-size: 40px;
+  transition: 0.3s;
 }
-.dots-sug__icon i:first-child {
+/* .dots-sug__icon i:first-child {
   padding-left: 8px;
-}
+} */
 .dots-sug__icon p {
+  margin-top: 13px;
   font-size: 13px;
+}
+.dots-sug__icon i:hover {
+  transform: scale(1.05);
 }
