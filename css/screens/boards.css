@@ -38,6 +38,7 @@
   color: #fff;
   border-radius: 5px;
   height: 20px;
+  cursor: pointer;
 }
 
 .board-note__btn:hover,
