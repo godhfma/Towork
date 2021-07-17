@@ -22,7 +22,7 @@
 }
 .co-wo__chats .chat__time {
   opacity: 0.5;
-  font-size: 12px;
+  font-size: 10px;
   margin-bottom: 4px;
 }
 
@@ -32,7 +32,8 @@
   align-items: center;
   background-color: tomato;
   color: #fff;
-  width: 20px;
-  height: 20px;
+  width: 14px;
+  height: 14px;
   border-radius: 50%;
+  font-size: 5px;
 }
