@@ -1,8 +1,9 @@
 #co-wo__display-link {
   display: block;
   text-align: center;
-  background-color: #fafafa;
+  background-color: rgba(238, 238, 238, 0.623);
   padding: 10px;
+  font-size: 11px;
 }
 
 #co-wo__display-link i {
@@ -20,6 +21,7 @@
   justify-content: space-between;
   align-items: center;
   border-top: 1px solid rgba(0, 0, 0, 0.2);
+  font-size: 14px;
 }
 
 .co-wo-groups {
@@ -40,12 +42,12 @@
 }
 
 .co-wo-groups__name {
-  font-size: 16px;
+  font-size: 13px;
 }
 
 .co-wo-groups__column:nth-child(even) {
   opacity: 0.7;
-  font-size: 13px;
+  font-size: 10px;
 }
 .co-wo-groups__column:nth-child(even) span {
   padding-right: 5px;
