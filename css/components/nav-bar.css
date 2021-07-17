@@ -26,12 +26,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 23px;
-  height: 23px;
+  width: 15px;
+  height: 15px;
   background-color: tomato;
   color: #fff;
   border-radius: 50%;
   animation: upDown 2s ease-in-out infinite;
+  font-size: 10px;
 }
 
 @keyframes upDown {
@@ -48,8 +49,8 @@
 
 .nav-dots__dot {
   background-color: tomato;
-  width: 7px;
-  height: 7px;
+  width: 5px;
+  height: 5px;
   border-radius: 50%;
   position: absolute;
   top: -2px;
