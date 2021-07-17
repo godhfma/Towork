@@ -26,7 +26,7 @@
 }
 
 .dots-sug__line {
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
   /* margin: 30px 0; */
   padding: var(--horizontal-space);
 }
@@ -44,7 +44,7 @@
   margin: 0 33.33%;
 } */
 .dots-sug__icon i {
-  font-size: 40px;
+  font-size: 30px;
   transition: 0.3s;
 }
 .dots-sug__icon:first-child {
@@ -52,7 +52,7 @@
 }
 .dots-sug__icon p {
   margin-top: 13px;
-  font-size: 13px;
+  font-size: 11px;
 }
 .dots-sug__icon i:hover {
   transform: scale(1.05);
