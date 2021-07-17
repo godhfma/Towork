@@ -1,8 +1,9 @@
 .boards__display-link {
   display: block;
   text-align: center;
-  background-color: #fafafa;
+  background-color: rgba(238, 238, 238, 0.623);
   padding: 10px;
+  font-size: 11px;
   margin-bottom: 10px;
 }
 .boards__display-link i {
