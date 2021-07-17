@@ -4,7 +4,7 @@
 }
 
 .alt-header {
-  padding: var(--horizontal-space);
+  padding: var(--horizontal-space) 10px;
   padding-top: 45px;
   display: flex;
   justify-content: space-between;
@@ -31,21 +31,26 @@
 
 .alt-header__title {
   font-weight: 600;
-  font-size: 20px;
+  font-size: 16px;
 }
 .main-chat {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: var(--horizontal-space);
+  padding: 0 var(--horizontal-space) var(--horizontal-space);
 }
 
-.chatWithMe .chat__timestamp {
-  color: rgb(26, 26, 26);
-  background-color: #eee;
-  border-radius: 30px;
-  font-size: 12px;
+.chat__timestamp {
+  display: block;
+  color: rgba(26, 26, 26, 0.568);
+  background-color: rgba(238, 238, 238, 0.432);
+  border-radius: 8px;
+  font-size: 10px;
   margin-bottom: 25px;
+  line-height: 17px;
+  width: 130px;
+  height: 17px;
+  text-align: center;
 }
 .message-row__mine {
   width: 100%;
@@ -62,16 +67,18 @@
   border-bottom-right-radius: 0px;
   margin-left: 4px;
   padding: 10px;
+  font-size: 12px;
+  line-height: 1.4;
 }
 
 .chatWithMe .message__info span {
   display: block;
   margin-top: 5px;
-  font-size: 13px;
+  font-size: 9px;
   opacity: 0.7;
   position: absolute;
-  left: -33px;
-  top: 75px;
+  left: -28px;
+  top: 90px;
 }
 
 .reply {
