@@ -4,14 +4,6 @@
   position: relative;
 }
 
-.chat__timestamp {
-  color: rgb(26, 26, 26);
-  background-color: #eee;
-  padding: 10px;
-  border-radius: 30px;
-  font-size: 12px;
-}
-
 .message-row {
   width: 100%;
 }
@@ -19,23 +11,24 @@
 .received {
   display: flex;
   align-items: center;
-  padding: var(--horizontal-space);
+  padding: 0px;
 }
 
 .received .message-author__img {
-  width: 48px;
-  height: 48px;
+  margin-top: 15px;
+  width: 38px;
+  height: 38px;
   background-color: rgb(255, 255, 255);
-  font-size: 30px;
-  border-radius: 15px;
+  font-size: 22px;
+  border-radius: 13px;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-right: 15px;
+  margin-right: 10px;
 }
 
 .message__author {
-  font-size: 13px;
+  font-size: 11px;
   opacity: 0.9;
   display: block;
   margin-bottom: 7px;
@@ -51,11 +44,12 @@
   padding: 8px 10px;
   border-radius: 15px;
   border-bottom-left-radius: 0px;
-  font-size: 14px;
+  font-size: 12px;
+  line-height: 1.4;
 }
 
 .received .message__time {
   opacity: 0.9;
-  font-size: 13px;
   margin-left: 5px;
+  font-size: 9px;
 }
