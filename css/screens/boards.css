@@ -33,4 +33,14 @@
 .board-note__btn {
   float: right;
   margin-top: 10px;
+  border: none;
+  background-color: rgba(100, 148, 237, 0.6);
+  color: #fff;
+  border-radius: 5px;
+  height: 20px;
+}
+
+.board-note__btn:hover,
+.board-note__btn:focus {
+  background-color: cornflowerblue;
 }
